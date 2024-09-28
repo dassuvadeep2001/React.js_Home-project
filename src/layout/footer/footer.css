@@ -1,0 +1,42 @@
+.footer{
+    background: linear-gradient(to top, black,rgb(62, 62, 62));
+    height:100px;
+}
+.footer h3{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.footer h3 i{
+    color: yellow;
+    font-weight: 500;
+}
+.footer h3 span{
+    color: red;
+    font-size: 20px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+      height: auto; /* Allow height to adjust based on content */
+      padding: 20px;
+    }
+  
+    .footer h3 {
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer h3 {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .footer h3 span {
+      font-size: 18px;
+    }
+  }

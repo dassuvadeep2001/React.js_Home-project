@@ -1,0 +1,21 @@
+nav{
+    background: linear-gradient(black,rgb(62, 62, 62));
+    padding: 10px 20px;
+}
+.navlist ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlist ul li{
+    list-style: none;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
